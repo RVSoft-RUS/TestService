@@ -1,0 +1,2 @@
+Для локального запуска перед стартом приложения:
+docker run --name postgres-local -e POSTGRES_PASSWORD=root -p 5432:5432 -d bitnami/postgresql:14.8.0
